@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "canvas-sketch ./src/sketch.js"
+    "start": "canvas-sketch ./src/sketch.js",
+    "build": "npx canvas-sketch-cli src/sketch.js --build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas-sketch": "^0.7.4",
+    "canvas-sketch": "^0.7.7",
     "three": "^0.128.0"
   }
 }
